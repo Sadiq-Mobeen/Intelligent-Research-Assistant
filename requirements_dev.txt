@@ -1,0 +1,16 @@
+# requirements_dev.txt
+
+-r requirements.txt  # Inherit production dependencies
+
+# Testing
+pytest>=7.4.0
+pytest-mock>=3.12.0
+pytest-qt>=4.2.0  # For GUI integration tests
+
+# Linting/Formatting
+black>=23.12.0
+flake8>=6.1.0
+mypy>=1.8.0
+
+# Documentation
+mkdocs>=1.5.0  # For building documentation

@@ -1,0 +1,17 @@
+# requirements.txt
+
+# PDF Processing
+PyPDF2>=3.0.0  # Basic PDF text extraction
+pdfplumber>=0.10.0  # Advanced PDF parsing (tables, formatting)
+
+# AI/Model Integration
+requests>=2.31.0  # HTTP calls to Ollama's local API
+python-dotenv>=1.0.0  # Environment variable management
+
+# GUI Framework
+customtkinter>=5.2.0  # Modern Tkinter-based GUI (recommended)
+# OR PySide6>=6.6.0  # Qt alternative (if preferred)
+
+# Utilities
+tqdm>=4.66.0  # Progress bars for long operations
+pandas>=2.0.0  # CSV export/data handling
